@@ -1,0 +1,1658 @@
+[
+  {
+    "id": "paneer-tikka-sandwich",
+    "name": "Paneer tikka sandwich",
+    "sourceCategory": "Sandwiches",
+    "serves": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 8,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "100 g paneer",
+        "quantity": 100.0,
+        "unit": "g",
+        "item": "paneer"
+      },
+      {
+        "text": "2 slices bread",
+        "quantity": 2.0,
+        "unit": "slices",
+        "item": "bread"
+      },
+      {
+        "text": "1 tbsp yogurt",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "yogurt"
+      },
+      {
+        "text": "0.5 tsp tikka masala",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "tikka masala"
+      },
+      {
+        "text": "2 tbsp onion",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "onion"
+      },
+      {
+        "text": "2 tbsp bell pepper",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "bell pepper"
+      }
+    ],
+    "method": [
+      "Mix crumbled paneer, yogurt, spice, onion and pepper.",
+      "Microwave in a safe bowl for 2 minutes, stir, then heat in 30-second bursts until hot; or pan-cook 4–5 minutes.",
+      "Fill bread and toast in a pan or sandwich press, if available."
+    ],
+    "cookWithMe": [
+      "Mix crumbled paneer, yogurt, spice, onion and pepper.",
+      "Microwave in a safe bowl for 2 minutes, stir, then heat in 30-second bursts until hot; or pan-cook 4–5 minutes.",
+      "Fill bread and toast in a pan or sandwich press, if available."
+    ]
+  },
+  {
+    "id": "cheesy-spinach-corn-sandwich",
+    "name": "Cheesy spinach corn sandwich",
+    "sourceCategory": "Sandwiches",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "2 slices bread",
+        "quantity": 2.0,
+        "unit": "slices",
+        "item": "bread"
+      },
+      {
+        "text": "1 cup spinach",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "spinach"
+      },
+      {
+        "text": "0.25 cup corn",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "corn"
+      },
+      {
+        "text": "0.25 cup shredded cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese"
+      },
+      {
+        "text": "1 tbsp milk",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "milk"
+      },
+      {
+        "text": "1 pinch black pepper",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "black pepper"
+      }
+    ],
+    "method": [
+      "Microwave spinach, corn and milk in a safe bowl for 1–2 minutes.",
+      "Drain excess liquid; mix in cheese and pepper.",
+      "Fill bread and toast in a pan/press, or microwave briefly until cheese melts."
+    ],
+    "cookWithMe": [
+      "Microwave spinach, corn and milk in a safe bowl for 1–2 minutes.",
+      "Drain excess liquid; mix in cheese and pepper.",
+      "Fill bread and toast in a pan/press, or microwave briefly until cheese melts."
+    ]
+  },
+  {
+    "id": "chutney-cheese-toastie",
+    "name": "Chutney cheese toastie",
+    "sourceCategory": "Sandwiches",
+    "serves": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 5,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "2 slices bread",
+        "quantity": 2.0,
+        "unit": "slices",
+        "item": "bread"
+      },
+      {
+        "text": "1 tbsp green chutney",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "green chutney"
+      },
+      {
+        "text": "0.25 cup shredded cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese"
+      },
+      {
+        "text": "2 slices tomato",
+        "quantity": 2.0,
+        "unit": "slices",
+        "item": "tomato"
+      }
+    ],
+    "method": [
+      "Spread chutney on bread.",
+      "Add cheese and tomato; close sandwich.",
+      "Toast in a pan/press until golden, or microwave until cheese melts."
+    ],
+    "cookWithMe": [
+      "Spread chutney on bread.",
+      "Add cheese and tomato; close sandwich.",
+      "Toast in a pan/press until golden, or microwave until cheese melts."
+    ]
+  },
+  {
+    "id": "hummus-cucumber-sandwich",
+    "name": "Hummus cucumber sandwich",
+    "sourceCategory": "Sandwiches",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "2 slices bread",
+        "quantity": 2.0,
+        "unit": "slices",
+        "item": "bread"
+      },
+      {
+        "text": "2 tbsp hummus",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "hummus"
+      },
+      {
+        "text": "0.25 cup cucumber",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "cucumber"
+      },
+      {
+        "text": "2 slices tomato",
+        "quantity": 2.0,
+        "unit": "slices",
+        "item": "tomato"
+      },
+      {
+        "text": "1 pinch black pepper",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "black pepper"
+      }
+    ],
+    "method": [
+      "Spread hummus on bread.",
+      "Layer on cucumber, tomato and pepper.",
+      "Close, cut in half and serve."
+    ],
+    "cookWithMe": [
+      "Spread hummus on bread.",
+      "Layer on cucumber, tomato and pepper.",
+      "Close, cut in half and serve."
+    ]
+  },
+  {
+    "id": "shortcut-aloo-paratha",
+    "name": "Shortcut aloo paratha",
+    "sourceCategory": "Parathas & wraps",
+    "serves": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 medium potato",
+        "quantity": 1.0,
+        "unit": null,
+        "item": "medium potato"
+      },
+      {
+        "text": "2 pieces tortillas or paratha dough",
+        "quantity": 2.0,
+        "unit": "pieces",
+        "item": "tortillas or paratha dough"
+      },
+      {
+        "text": "0.25 tsp cumin",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "cumin"
+      },
+      {
+        "text": "1 pinch chilli powder",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "chilli powder"
+      },
+      {
+        "text": "0.25 tsp salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "text": "2 tsp oil or ghee",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "item": "oil or ghee"
+      }
+    ],
+    "method": [
+      "Pierce potato with a fork; microwave 4–6 minutes, turning halfway, until soft. Cool, peel and mash.",
+      "Mix potato with cumin, chilli and salt. Sandwich between tortillas or fill/seal dough.",
+      "Pan-cook with a little oil for 2–3 minutes per side."
+    ],
+    "cookWithMe": [
+      "Pierce potato with a fork; microwave 4–6 minutes, turning halfway, until soft. Cool, peel and mash.",
+      "Mix potato with cumin, chilli and salt. Sandwich between tortillas or fill/seal dough.",
+      "Pan-cook with a little oil for 2–3 minutes per side."
+    ]
+  },
+  {
+    "id": "paneer-bhurji-paratha-wrap",
+    "name": "Paneer bhurji paratha wrap",
+    "sourceCategory": "Parathas & wraps",
+    "serves": 1,
+    "prepMinutes": 7,
+    "cookMinutes": 8,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "100 g paneer",
+        "quantity": 100.0,
+        "unit": "g",
+        "item": "paneer"
+      },
+      {
+        "text": "1 piece paratha or tortilla",
+        "quantity": 1.0,
+        "unit": "piece",
+        "item": "paratha or tortilla"
+      },
+      {
+        "text": "2 tbsp onion",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "onion"
+      },
+      {
+        "text": "2 tbsp tomato",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "tomato"
+      },
+      {
+        "text": "0.25 tsp garam masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "garam masala"
+      },
+      {
+        "text": "1 tsp oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "oil"
+      }
+    ],
+    "method": [
+      "Chop onion and tomato; crumble paneer.",
+      "Cook onion in oil for 2 minutes, add tomato for 2 minutes, then paneer and masala for 2–3 minutes.",
+      "Warm paratha/tortilla, fill and roll."
+    ],
+    "cookWithMe": [
+      "Chop onion and tomato; crumble paneer.",
+      "Cook onion in oil for 2 minutes, add tomato for 2 minutes, then paneer and masala for 2–3 minutes.",
+      "Warm paratha/tortilla, fill and roll."
+    ]
+  },
+  {
+    "id": "cheese-corn-paratha",
+    "name": "Cheese corn paratha",
+    "sourceCategory": "Parathas & wraps",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 6,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 piece paratha or tortilla",
+        "quantity": 1.0,
+        "unit": "piece",
+        "item": "paratha or tortilla"
+      },
+      {
+        "text": "0.25 cup corn",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "corn"
+      },
+      {
+        "text": "0.25 cup shredded cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese"
+      },
+      {
+        "text": "1 pinch chilli flakes",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "chilli flakes"
+      },
+      {
+        "text": "1 tsp oil or butter",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "oil or butter"
+      }
+    ],
+    "method": [
+      "Microwave frozen corn with a teaspoon of water for 1 minute; drain.",
+      "Mix corn, cheese and optional chilli; fill half the paratha and fold.",
+      "Pan-cook 2–3 minutes per side until golden and melty."
+    ],
+    "cookWithMe": [
+      "Microwave frozen corn with a teaspoon of water for 1 minute; drain.",
+      "Mix corn, cheese and optional chilli; fill half the paratha and fold.",
+      "Pan-cook 2–3 minutes per side until golden and melty."
+    ]
+  },
+  {
+    "id": "creamy-spinach-pasta",
+    "name": "Creamy spinach pasta",
+    "sourceCategory": "Pasta",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "90 g pasta",
+        "quantity": 90.0,
+        "unit": "g",
+        "item": "pasta"
+      },
+      {
+        "text": "1 cup spinach",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "spinach"
+      },
+      {
+        "text": "0.5 cup milk",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "milk"
+      },
+      {
+        "text": "1 clove garlic",
+        "quantity": 1.0,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "text": "0.25 cup shredded cheese",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "shredded cheese"
+      },
+      {
+        "text": "1 tsp butter or oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "butter or oil"
+      }
+    ],
+    "method": [
+      "Boil pasta according to packet; reserve a little pasta water and drain.",
+      "Cook garlic in butter/oil for 30 seconds; add spinach until wilted.",
+      "Add milk and cheese over low heat; toss in pasta and loosen with pasta water if needed."
+    ],
+    "cookWithMe": [
+      "Boil pasta according to packet; reserve a little pasta water and drain.",
+      "Cook garlic in butter/oil for 30 seconds; add spinach until wilted.",
+      "Add milk and cheese over low heat; toss in pasta and loosen with pasta water if needed."
+    ]
+  },
+  {
+    "id": "tomato-garlic-pasta",
+    "name": "Tomato garlic pasta",
+    "sourceCategory": "Pasta",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "90 g pasta",
+        "quantity": 90.0,
+        "unit": "g",
+        "item": "pasta"
+      },
+      {
+        "text": "0.5 cup canned crushed tomatoes",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "canned crushed tomatoes"
+      },
+      {
+        "text": "1 clove garlic",
+        "quantity": 1.0,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "text": "1 tbsp olive oil",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "olive oil"
+      },
+      {
+        "text": "0.5 tsp Italian seasoning",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "Italian seasoning"
+      },
+      {
+        "text": "2 tbsp cheese",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "cheese"
+      }
+    ],
+    "method": [
+      "Boil pasta according to packet; reserve a little water and drain.",
+      "Cook garlic in oil for 30 seconds; add tomatoes and seasoning, simmer 5–7 minutes.",
+      "Toss pasta in sauce; top with cheese if wanted."
+    ],
+    "cookWithMe": [
+      "Boil pasta according to packet; reserve a little water and drain.",
+      "Cook garlic in oil for 30 seconds; add tomatoes and seasoning, simmer 5–7 minutes.",
+      "Toss pasta in sauce; top with cheese if wanted."
+    ]
+  },
+  {
+    "id": "one-pot-masala-macaroni",
+    "name": "One-pot masala macaroni",
+    "sourceCategory": "Pasta",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 15,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "90 g macaroni",
+        "quantity": 90.0,
+        "unit": "g",
+        "item": "macaroni"
+      },
+      {
+        "text": "0.25 small onion",
+        "quantity": 0.25,
+        "unit": null,
+        "item": "small onion"
+      },
+      {
+        "text": "1 small tomato",
+        "quantity": 1.0,
+        "unit": null,
+        "item": "small tomato"
+      },
+      {
+        "text": "0.25 cup frozen peas",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "frozen peas"
+      },
+      {
+        "text": "0.25 tsp garam masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "garam masala"
+      },
+      {
+        "text": "1 tbsp ketchup",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "ketchup"
+      },
+      {
+        "text": "2 cups water",
+        "quantity": 2.0,
+        "unit": "cups",
+        "item": "water"
+      }
+    ],
+    "method": [
+      "Cook chopped onion in a little oil for 2 minutes; add tomato and masala for 1 minute.",
+      "Add macaroni, peas, ketchup, salt and water; bring to a boil.",
+      "Simmer 8–10 minutes, stirring often, until pasta is tender and most water is absorbed."
+    ],
+    "cookWithMe": [
+      "Cook chopped onion in a little oil for 2 minutes; add tomato and masala for 1 minute.",
+      "Add macaroni, peas, ketchup, salt and water; bring to a boil.",
+      "Simmer 8–10 minutes, stirring often, until pasta is tender and most water is absorbed."
+    ]
+  },
+  {
+    "id": "pesto-pea-pasta",
+    "name": "Pesto pea pasta",
+    "sourceCategory": "Pasta",
+    "serves": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 12,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "90 g pasta",
+        "quantity": 90.0,
+        "unit": "g",
+        "item": "pasta"
+      },
+      {
+        "text": "1.5 tbsp pesto",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "item": "pesto"
+      },
+      {
+        "text": "0.33 cup frozen peas",
+        "quantity": 0.33,
+        "unit": "cup",
+        "item": "frozen peas"
+      },
+      {
+        "text": "2 tbsp cheese",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "cheese"
+      },
+      {
+        "text": "0.5 tsp lemon juice",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "lemon juice"
+      }
+    ],
+    "method": [
+      "Boil pasta; add peas for the final 2 minutes.",
+      "Reserve a little pasta water, then drain.",
+      "Stir pesto through pasta and peas, loosening with pasta water; add cheese or lemon if wanted."
+    ],
+    "cookWithMe": [
+      "Boil pasta; add peas for the final 2 minutes.",
+      "Reserve a little pasta water, then drain.",
+      "Stir pesto through pasta and peas, loosening with pasta water; add cheese or lemon if wanted."
+    ]
+  },
+  {
+    "id": "green-coriander-chutney",
+    "name": "Green coriander chutney",
+    "sourceCategory": "Sauces & dry chutneys",
+    "serves": 4,
+    "prepMinutes": 7,
+    "cookMinutes": 0,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 cup cilantro/coriander",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "cilantro/coriander"
+      },
+      {
+        "text": "0.25 cup mint",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "mint"
+      },
+      {
+        "text": "0.5 piece green chilli",
+        "quantity": 0.5,
+        "unit": "piece",
+        "item": "green chilli"
+      },
+      {
+        "text": "1 tbsp lemon juice",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "lemon juice"
+      },
+      {
+        "text": "0.25 tsp salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "text": "2 tbsp water",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "water"
+      }
+    ],
+    "method": [
+      "Wash herbs well.",
+      "Blend herbs with chilli, lemon, salt and water until smooth.",
+      "Refrigerate in a clean sealed container and use within 3 days."
+    ],
+    "cookWithMe": [
+      "Wash herbs well.",
+      "Blend herbs with chilli, lemon, salt and water until smooth.",
+      "Refrigerate in a clean sealed container and use within 3 days."
+    ]
+  },
+  {
+    "id": "peanut-chutney-powder",
+    "name": "Peanut chutney powder",
+    "sourceCategory": "Sauces & dry chutneys",
+    "serves": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.5 cup roasted peanuts",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "roasted peanuts"
+      },
+      {
+        "text": "1 tbsp sesame seeds",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "sesame seeds"
+      },
+      {
+        "text": "0.25 tsp chilli powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "chilli powder"
+      },
+      {
+        "text": "0.25 tsp salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "text": "1 clove garlic",
+        "quantity": 1.0,
+        "unit": "clove",
+        "item": "garlic"
+      }
+    ],
+    "method": [
+      "If needed, toast peanuts in a dry pan and cool completely.",
+      "Pulse peanuts, sesame, chilli, salt and garlic until crumbly, not creamy.",
+      "Store in an airtight jar and use a dry spoon."
+    ],
+    "cookWithMe": [
+      "If needed, toast peanuts in a dry pan and cool completely.",
+      "Pulse peanuts, sesame, chilli, salt and garlic until crumbly, not creamy.",
+      "Store in an airtight jar and use a dry spoon."
+    ]
+  },
+  {
+    "id": "mint-yogurt-dip",
+    "name": "Mint yogurt dip",
+    "sourceCategory": "Sauces & dry chutneys",
+    "serves": 4,
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.5 cup plain yogurt",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "plain yogurt"
+      },
+      {
+        "text": "2 tbsp mint",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "mint"
+      },
+      {
+        "text": "1 tsp lemon juice",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "lemon juice"
+      },
+      {
+        "text": "0.25 tsp cumin powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "cumin powder"
+      },
+      {
+        "text": "1 pinch salt",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "salt"
+      }
+    ],
+    "method": [
+      "Stir yogurt until smooth.",
+      "Mix in chopped mint, lemon, cumin and salt.",
+      "Chill until serving; refrigerate leftovers promptly."
+    ],
+    "cookWithMe": [
+      "Stir yogurt until smooth.",
+      "Mix in chopped mint, lemon, cumin and salt.",
+      "Chill until serving; refrigerate leftovers promptly."
+    ]
+  },
+  {
+    "id": "quick-garlic-chilli-oil",
+    "name": "Quick garlic chilli oil",
+    "sourceCategory": "Sauces & dry chutneys",
+    "serves": 4,
+    "prepMinutes": 3,
+    "cookMinutes": 2,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.25 cup neutral oil",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "neutral oil"
+      },
+      {
+        "text": "1 tbsp chilli flakes",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "chilli flakes"
+      },
+      {
+        "text": "1 clove garlic",
+        "quantity": 1.0,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "text": "1 tsp sesame seeds",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "sesame seeds"
+      }
+    ],
+    "method": [
+      "Put chilli flakes, finely minced garlic and sesame in a heatproof microwave-safe bowl.",
+      "Warm oil separately in short 20-second microwave bursts until hot, not smoking; carefully pour over chilli mixture.",
+      "Cool, refrigerate promptly and use within 4 days because it contains fresh garlic."
+    ],
+    "cookWithMe": [
+      "Put chilli flakes, finely minced garlic and sesame in a heatproof microwave-safe bowl.",
+      "Warm oil separately in short 20-second microwave bursts until hot, not smoking; carefully pour over chilli mixture.",
+      "Cool, refrigerate promptly and use within 4 days because it contains fresh garlic."
+    ]
+  },
+  {
+    "id": "greek-inspired-salad",
+    "name": "Greek-inspired salad",
+    "sourceCategory": "Salads",
+    "serves": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.5 cup cucumber",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "cucumber"
+      },
+      {
+        "text": "0.5 cup tomato",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "tomato"
+      },
+      {
+        "text": "0.25 cup feta",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "feta"
+      },
+      {
+        "text": "2 tbsp olives",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "olives"
+      },
+      {
+        "text": "1 tsp olive oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "olive oil"
+      },
+      {
+        "text": "1 tsp lemon juice",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "lemon juice"
+      }
+    ],
+    "method": [
+      "Chop cucumber and tomato.",
+      "Add feta and olives if available.",
+      "Dress with olive oil, lemon and black pepper; toss."
+    ],
+    "cookWithMe": [
+      "Chop cucumber and tomato.",
+      "Add feta and olives if available.",
+      "Dress with olive oil, lemon and black pepper; toss."
+    ]
+  },
+  {
+    "id": "chickpea-cucumber-salad",
+    "name": "Chickpea cucumber salad",
+    "sourceCategory": "Salads",
+    "serves": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.75 cup canned chickpeas",
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "canned chickpeas"
+      },
+      {
+        "text": "0.5 cup cucumber",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "cucumber"
+      },
+      {
+        "text": "0.5 cup tomato",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "tomato"
+      },
+      {
+        "text": "1 tbsp lemon juice",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "lemon juice"
+      },
+      {
+        "text": "1 tsp olive oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "olive oil"
+      },
+      {
+        "text": "0.25 tsp cumin powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "cumin powder"
+      }
+    ],
+    "method": [
+      "Drain and rinse chickpeas.",
+      "Mix chickpeas with chopped cucumber and tomato.",
+      "Add lemon, oil, cumin and salt; toss and rest 5 minutes."
+    ],
+    "cookWithMe": [
+      "Drain and rinse chickpeas.",
+      "Mix chickpeas with chopped cucumber and tomato.",
+      "Add lemon, oil, cumin and salt; toss and rest 5 minutes."
+    ]
+  },
+  {
+    "id": "corn-cucumber-cheese-salad",
+    "name": "Corn cucumber cheese salad",
+    "sourceCategory": "Salads",
+    "serves": 1,
+    "prepMinutes": 7,
+    "cookMinutes": 2,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.5 cup corn",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "corn"
+      },
+      {
+        "text": "0.5 cup cucumber",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "cucumber"
+      },
+      {
+        "text": "2 tbsp shredded cheese",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "shredded cheese"
+      },
+      {
+        "text": "1 tsp lemon juice",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "lemon juice"
+      },
+      {
+        "text": "1 tbsp yogurt",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "yogurt"
+      }
+    ],
+    "method": [
+      "If frozen, microwave corn with a teaspoon of water for 1–2 minutes; drain and cool. Drain canned corn instead.",
+      "Mix corn with chopped cucumber.",
+      "Add cheese, lemon, pepper and yogurt if wanted; toss."
+    ],
+    "cookWithMe": [
+      "If frozen, microwave corn with a teaspoon of water for 1–2 minutes; drain and cool. Drain canned corn instead.",
+      "Mix corn with chopped cucumber.",
+      "Add cheese, lemon, pepper and yogurt if wanted; toss."
+    ]
+  },
+  {
+    "id": "peanut-lime-slaw",
+    "name": "Peanut lime slaw",
+    "sourceCategory": "Salads",
+    "serves": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 cup shredded cabbage or coleslaw mix",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "shredded cabbage or coleslaw mix"
+      },
+      {
+        "text": "0.25 cup carrot",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "carrot"
+      },
+      {
+        "text": "2 tbsp roasted peanuts",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "roasted peanuts"
+      },
+      {
+        "text": "1 tbsp lime juice",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "lime juice"
+      },
+      {
+        "text": "1 tsp soy sauce",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "soy sauce"
+      },
+      {
+        "text": "0.5 tsp honey or sugar",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "honey or sugar"
+      }
+    ],
+    "method": [
+      "Put cabbage and grated carrot in a bowl.",
+      "Mix lime juice, soy sauce and honey/sugar; pour over vegetables.",
+      "Toss and top with crushed peanuts just before eating."
+    ],
+    "cookWithMe": [
+      "Put cabbage and grated carrot in a bowl.",
+      "Mix lime juice, soy sauce and honey/sugar; pour over vegetables.",
+      "Toss and top with crushed peanuts just before eating."
+    ]
+  },
+  {
+    "id": "paneer-burrito-bowl",
+    "name": "Paneer burrito bowl",
+    "sourceCategory": "Bowls",
+    "serves": 1,
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 cup cooked rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "cooked rice"
+      },
+      {
+        "text": "100 g paneer",
+        "quantity": 100.0,
+        "unit": "g",
+        "item": "paneer"
+      },
+      {
+        "text": "0.5 cup black or kidney beans",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "black or kidney beans"
+      },
+      {
+        "text": "0.25 cup corn",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "corn"
+      },
+      {
+        "text": "2 tbsp salsa",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "salsa"
+      },
+      {
+        "text": "0.25 tsp cumin powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "cumin powder"
+      }
+    ],
+    "method": [
+      "Cube paneer and season with cumin and salt; pan-sear 4–5 minutes or microwave until hot.",
+      "Microwave rice, drained beans and corn in separate safe bowls until steaming hot.",
+      "Build a bowl with rice, beans, corn, paneer and salsa."
+    ],
+    "cookWithMe": [
+      "Cube paneer and season with cumin and salt; pan-sear 4–5 minutes or microwave until hot.",
+      "Microwave rice, drained beans and corn in separate safe bowls until steaming hot.",
+      "Build a bowl with rice, beans, corn, paneer and salsa."
+    ]
+  },
+  {
+    "id": "jeera-rice-and-paneer-bowl",
+    "name": "Jeera rice and paneer bowl",
+    "sourceCategory": "Bowls",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 cup cooked rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "cooked rice"
+      },
+      {
+        "text": "100 g paneer",
+        "quantity": 100.0,
+        "unit": "g",
+        "item": "paneer"
+      },
+      {
+        "text": "0.5 tsp cumin seeds",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "cumin seeds"
+      },
+      {
+        "text": "1 tsp butter or oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "butter or oil"
+      },
+      {
+        "text": "0.25 cup frozen peas",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "frozen peas"
+      }
+    ],
+    "method": [
+      "Heat butter/oil and cumin seeds for 20 seconds; add rice and peas until hot. Microwave alternative: warm rice/peas and mix with cumin powder.",
+      "Warm paneer cubes in a pan or microwave until hot.",
+      "Serve paneer over jeera rice."
+    ],
+    "cookWithMe": [
+      "Heat butter/oil and cumin seeds for 20 seconds; add rice and peas until hot. Microwave alternative: warm rice/peas and mix with cumin powder.",
+      "Warm paneer cubes in a pan or microwave until hot.",
+      "Serve paneer over jeera rice."
+    ]
+  },
+  {
+    "id": "palak-paneer-rice-bowl",
+    "name": "Palak paneer rice bowl",
+    "sourceCategory": "Bowls",
+    "serves": 1,
+    "prepMinutes": 7,
+    "cookMinutes": 12,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 cup cooked rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "cooked rice"
+      },
+      {
+        "text": "100 g paneer",
+        "quantity": 100.0,
+        "unit": "g",
+        "item": "paneer"
+      },
+      {
+        "text": "1.5 cups spinach",
+        "quantity": 1.5,
+        "unit": "cups",
+        "item": "spinach"
+      },
+      {
+        "text": "0.25 small onion",
+        "quantity": 0.25,
+        "unit": null,
+        "item": "small onion"
+      },
+      {
+        "text": "1 clove garlic",
+        "quantity": 1.0,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "text": "2 tbsp milk or cream",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "milk or cream"
+      },
+      {
+        "text": "0.25 tsp garam masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "garam masala"
+      }
+    ],
+    "method": [
+      "Cook chopped onion in oil for 2 minutes; add garlic for 30 seconds and spinach until wilted.",
+      "Stir in milk/cream, garam masala and salt. Leave chunky or blend once slightly cooled.",
+      "Add paneer and simmer 3–4 minutes; serve over steaming-hot rice."
+    ],
+    "cookWithMe": [
+      "Cook chopped onion in oil for 2 minutes; add garlic for 30 seconds and spinach until wilted.",
+      "Stir in milk/cream, garam masala and salt. Leave chunky or blend once slightly cooled.",
+      "Add paneer and simmer 3–4 minutes; serve over steaming-hot rice."
+    ]
+  },
+  {
+    "id": "microwave-chickpea-rice-bowl",
+    "name": "Microwave chickpea rice bowl",
+    "sourceCategory": "Bowls",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 4,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 cup cooked rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "cooked rice"
+      },
+      {
+        "text": "0.75 cup canned chickpeas",
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "canned chickpeas"
+      },
+      {
+        "text": "0.5 cup frozen spinach",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "frozen spinach"
+      },
+      {
+        "text": "2 tbsp yogurt",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "yogurt"
+      },
+      {
+        "text": "0.25 tsp cumin powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "cumin powder"
+      },
+      {
+        "text": "1 tsp lemon juice",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "lemon juice"
+      }
+    ],
+    "method": [
+      "Drain and rinse chickpeas; add to a safe bowl with rice and spinach.",
+      "Cover loosely and microwave 2 minutes; stir and continue in 30-second bursts until steaming hot.",
+      "Mix yogurt with cumin, lemon and salt; spoon over the bowl."
+    ],
+    "cookWithMe": [
+      "Drain and rinse chickpeas; add to a safe bowl with rice and spinach.",
+      "Cover loosely and microwave 2 minutes; stir and continue in 30-second bursts until steaming hot.",
+      "Mix yogurt with cumin, lemon and salt; spoon over the bowl."
+    ]
+  },
+  {
+    "id": "microwave-mug-brownie",
+    "name": "Microwave mug brownie",
+    "sourceCategory": "Quick desserts",
+    "serves": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 1,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "4 tbsp all-purpose flour",
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "item": "all-purpose flour"
+      },
+      {
+        "text": "2 tbsp sugar",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "sugar"
+      },
+      {
+        "text": "1 tbsp cocoa powder",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "cocoa powder"
+      },
+      {
+        "text": "3 tbsp milk",
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "item": "milk"
+      },
+      {
+        "text": "1 tbsp neutral oil or melted butter",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "neutral oil or melted butter"
+      },
+      {
+        "text": "1 tbsp chocolate chips",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "chocolate chips"
+      }
+    ],
+    "method": [
+      "In a large microwave-safe mug, mix flour, sugar, cocoa and a pinch of salt.",
+      "Stir in milk and oil until smooth; add chocolate chips if using.",
+      "Microwave 45 seconds, then use 10-second bursts until mostly set. Rest 1 minute; mug will be hot."
+    ],
+    "cookWithMe": [
+      "In a large microwave-safe mug, mix flour, sugar, cocoa and a pinch of salt.",
+      "Stir in milk and oil until smooth; add chocolate chips if using.",
+      "Microwave 45 seconds, then use 10-second bursts until mostly set. Rest 1 minute; mug will be hot."
+    ]
+  },
+  {
+    "id": "peanut-butter-chocolate-mug-cake",
+    "name": "Peanut butter chocolate mug cake",
+    "sourceCategory": "Quick desserts",
+    "serves": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 1,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "4 tbsp all-purpose flour",
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "item": "all-purpose flour"
+      },
+      {
+        "text": "1.5 tbsp sugar",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "item": "sugar"
+      },
+      {
+        "text": "1 tbsp cocoa powder",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "cocoa powder"
+      },
+      {
+        "text": "3 tbsp milk",
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "item": "milk"
+      },
+      {
+        "text": "1 tbsp peanut butter",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "peanut butter"
+      },
+      {
+        "text": "0.25 tsp baking powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "baking powder"
+      }
+    ],
+    "method": [
+      "Mix flour, sugar, cocoa and baking powder in a large microwave-safe mug.",
+      "Stir in milk and peanut butter until there are no big dry pockets.",
+      "Microwave 50 seconds, then 10-second bursts until just set. Rest 1 minute."
+    ],
+    "cookWithMe": [
+      "Mix flour, sugar, cocoa and baking powder in a large microwave-safe mug.",
+      "Stir in milk and peanut butter until there are no big dry pockets.",
+      "Microwave 50 seconds, then 10-second bursts until just set. Rest 1 minute."
+    ]
+  },
+  {
+    "id": "yogurt-berry-crunch-cup",
+    "name": "Yogurt berry crunch cup",
+    "sourceCategory": "Quick desserts",
+    "serves": 1,
+    "prepMinutes": 4,
+    "cookMinutes": 0,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.75 cup plain or vanilla yogurt",
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "plain or vanilla yogurt"
+      },
+      {
+        "text": "0.5 cup berries or banana",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "berries or banana"
+      },
+      {
+        "text": "0.25 cup granola or crushed biscuits",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "granola or crushed biscuits"
+      },
+      {
+        "text": "1 tsp honey",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "honey"
+      },
+      {
+        "text": "1 pinch cinnamon",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "cinnamon"
+      }
+    ],
+    "method": [
+      "Spoon yogurt into a cup or bowl.",
+      "Add berries or sliced banana and granola/crushed biscuits.",
+      "Add honey and cinnamon if wanted; assemble just before eating to keep crunch."
+    ],
+    "cookWithMe": [
+      "Spoon yogurt into a cup or bowl.",
+      "Add berries or sliced banana and granola/crushed biscuits.",
+      "Add honey and cinnamon if wanted; assemble just before eating to keep crunch."
+    ]
+  },
+  {
+    "id": "shortcut-pav-bhaji",
+    "name": "Shortcut pav bhaji",
+    "sourceCategory": "Occasional meals",
+    "serves": 1,
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 medium potato",
+        "quantity": 1.0,
+        "unit": null,
+        "item": "medium potato"
+      },
+      {
+        "text": "1 cup frozen mixed vegetables",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "frozen mixed vegetables"
+      },
+      {
+        "text": "1 medium tomato",
+        "quantity": 1.0,
+        "unit": null,
+        "item": "medium tomato"
+      },
+      {
+        "text": "0.5 small onion",
+        "quantity": 0.5,
+        "unit": null,
+        "item": "small onion"
+      },
+      {
+        "text": "1 tsp pav bhaji masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "pav bhaji masala"
+      },
+      {
+        "text": "1 tbsp butter",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "butter"
+      },
+      {
+        "text": "4 pieces pav/bread rolls",
+        "quantity": 4.0,
+        "unit": "pieces",
+        "item": "pav/bread rolls"
+      }
+    ],
+    "method": [
+      "Pierce potato and microwave 4–6 minutes, turning halfway, until soft. Cool, peel and mash. Microwave vegetables with a splash of water until soft; mash roughly.",
+      "Cook onion in half the butter for 2 minutes; add tomato and pav bhaji masala for 3 minutes.",
+      "Add potato, vegetables, salt and a splash of water; mash and simmer 5 minutes. Toast pav in remaining butter."
+    ],
+    "cookWithMe": [
+      "Pierce potato and microwave 4–6 minutes, turning halfway, until soft. Cool, peel and mash. Microwave vegetables with a splash of water until soft; mash roughly.",
+      "Cook onion in half the butter for 2 minutes; add tomato and pav bhaji masala for 3 minutes.",
+      "Add potato, vegetables, salt and a splash of water; mash and simmer 5 minutes. Toast pav in remaining butter."
+    ]
+  },
+  {
+    "id": "quick-veg-fried-rice",
+    "name": "Quick veg fried rice",
+    "sourceCategory": "Occasional meals",
+    "serves": 1,
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 cup cooked rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "cooked rice"
+      },
+      {
+        "text": "0.5 cup frozen mixed vegetables",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "frozen mixed vegetables"
+      },
+      {
+        "text": "1 tbsp soy sauce",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "item": "soy sauce"
+      },
+      {
+        "text": "1 clove garlic",
+        "quantity": 1.0,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "text": "1 tsp oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "oil"
+      },
+      {
+        "text": "1 pinch black pepper",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "black pepper"
+      }
+    ],
+    "method": [
+      "Cook garlic in oil for 30 seconds; add vegetables until hot.",
+      "Add cooked rice and soy sauce; stir-fry until steaming hot.",
+      "Microwave option: combine in a safe bowl, cover loosely, heat in 1-minute bursts and stir between bursts until steaming hot."
+    ],
+    "cookWithMe": [
+      "Cook garlic in oil for 30 seconds; add vegetables until hot.",
+      "Add cooked rice and soy sauce; stir-fry until steaming hot.",
+      "Microwave option: combine in a safe bowl, cover loosely, heat in 1-minute bursts and stir between bursts until steaming hot."
+    ]
+  },
+  {
+    "id": "easy-dal-and-rice-bowl",
+    "name": "Easy dal and rice bowl",
+    "sourceCategory": "Occasional meals",
+    "serves": 1,
+    "prepMinutes": 3,
+    "cookMinutes": 5,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "0.75 cup cooked or canned lentils",
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "cooked or canned lentils"
+      },
+      {
+        "text": "1 cup cooked rice",
+        "quantity": 1.0,
+        "unit": "cup",
+        "item": "cooked rice"
+      },
+      {
+        "text": "2 tbsp water",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "water"
+      },
+      {
+        "text": "1 pinch turmeric",
+        "quantity": 1.0,
+        "unit": "pinch",
+        "item": "turmeric"
+      },
+      {
+        "text": "0.25 tsp cumin powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "cumin powder"
+      },
+      {
+        "text": "1 tsp ghee or butter",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "ghee or butter"
+      }
+    ],
+    "method": [
+      "Mix lentils, water, turmeric, cumin and salt in a microwave-safe bowl.",
+      "Cover loosely and microwave 1–2 minutes; stir and heat in 30-second bursts until steaming hot.",
+      "Warm rice until steaming hot, stir ghee/butter into dal and serve together."
+    ],
+    "cookWithMe": [
+      "Mix lentils, water, turmeric, cumin and salt in a microwave-safe bowl.",
+      "Cover loosely and microwave 1–2 minutes; stir and heat in 30-second bursts until steaming hot.",
+      "Warm rice until steaming hot, stir ghee/butter into dal and serve together."
+    ]
+  },
+  {
+    "id": "microwave-masala-potato-chaat",
+    "name": "Microwave masala potato chaat",
+    "sourceCategory": "Occasional meals",
+    "serves": 1,
+    "prepMinutes": 6,
+    "cookMinutes": 7,
+    "difficulty": "Easy",
+    "ingredients": [
+      {
+        "text": "1 medium potato",
+        "quantity": 1.0,
+        "unit": null,
+        "item": "medium potato"
+      },
+      {
+        "text": "2 tbsp yogurt",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "item": "yogurt"
+      },
+      {
+        "text": "1 tsp green chutney",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "green chutney"
+      },
+      {
+        "text": "1 tsp tamarind chutney or ketchup",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "tamarind chutney or ketchup"
+      },
+      {
+        "text": "0.25 tsp chaat masala",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "chaat masala"
+      },
+      {
+        "text": "1 tsp lemon juice",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "item": "lemon juice"
+      }
+    ],
+    "method": [
+      "Wash and pierce potato several times with a fork; microwave on a safe plate 4–6 minutes, turning halfway, until soft. Cool slightly.",
+      "Cut into bite-size pieces; add chaat masala, lemon and salt.",
+      "Top with yogurt and chutneys if available; mix gently."
+    ],
+    "cookWithMe": [
+      "Wash and pierce potato several times with a fork; microwave on a safe plate 4–6 minutes, turning halfway, until soft. Cool slightly.",
+      "Cut into bite-size pieces; add chaat masala, lemon and salt.",
+      "Top with yogurt and chutneys if available; mix gently."
+    ]
+  }
+]

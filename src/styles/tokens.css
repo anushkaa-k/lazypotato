@@ -1,0 +1,100 @@
+/*
+ * Lazy Potato design tokens. Every component reads from these; change a value here
+ * and the whole site follows.
+ */
+:root {
+  /* Colour: brand */
+  --cream: #fffbf6;
+  --cream-deep: #fbf3e8;
+  --paper: #fffdfa;
+  --lavender: #e9ddfb;
+  --lavender-surface: #f0e8fc;
+  --lilac: #a98acf;
+  --lilac-ink: #6f539a; /* lilac dark enough for text on cream (≥ 4.5:1) */
+  --plum: #443653;
+  --plum-soft: #65577a; /* secondary text (≥ 4.5:1 on cream and lavender) */
+
+  /* Colour: supporting accents */
+  --pink: #f6d3de;
+  --pink-ink: #9b3f60;
+  --sage: #dbe6cf;
+  --sage-ink: #4f6a42;
+  --peach: #fbe1cd;
+  --peach-ink: #8a4b22;
+
+  /* Colour: roles */
+  --bg: var(--cream);
+  --surface: var(--paper);
+  --surface-tint: var(--lavender-surface);
+  --text: var(--plum);
+  --text-soft: var(--plum-soft);
+  --line: #e7dcef;
+  --line-strong: #cbb8e0;
+  --focus: #7c5cb3;
+  --primary: var(--lavender);
+  --primary-hover: #dfd0f7;
+  --primary-ink: var(--plum);
+
+  /* Typography */
+  --font-heading: 'Quicksand', ui-rounded, 'SF Pro Rounded', 'Nunito', system-ui, sans-serif;
+  --font-body: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-hand: 'Caveat', 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', cursive;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-md: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: clamp(1.75rem, 1.4rem + 1.6vw, 2.25rem);
+  --text-3xl: clamp(2rem, 1.5rem + 2.4vw, 3rem);
+  --text-hand: 1.5rem;
+
+  /* Spacing (4px scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Shape */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+  --border: 1.5px solid var(--line);
+  --border-ink: 2px solid var(--plum);
+
+  /* Depth: restrained, a little "sticker" offset for primary actions */
+  --shadow-sm: 0 1px 0 rgb(68 54 83 / 0.06), 0 4px 14px -8px rgb(68 54 83 / 0.25);
+  --shadow-md: 0 2px 0 rgb(68 54 83 / 0.05), 0 12px 28px -14px rgb(68 54 83 / 0.3);
+  --shadow-sticker: 0 3px 0 var(--plum);
+
+  /* Motion */
+  --ease: cubic-bezier(0.3, 0.7, 0.4, 1);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+
+  /* Layout */
+  --page-max: 1120px;
+  --gutter: 16px;
+  --tap: 48px;
+  --header-h: 64px;
+  --tabbar-h: 68px;
+}
+
+@media (min-width: 720px) {
+  :root {
+    --gutter: 32px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur: 0ms;
+  }
+}
