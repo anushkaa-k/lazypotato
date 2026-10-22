@@ -1,6 +1,6 @@
 /*
  * Fonts are bundled with the site (no external requests), so they load offline and on
- * GitHub Pages. Only the weights we use are imported. If a font fails, the stacks in
+ * any static host. Only the weights we use are imported. If a font fails, the stacks in
  * tokens.css fall back to system fonts.
  */
 import '@fontsource/quicksand/500.css';

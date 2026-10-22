@@ -82,18 +82,33 @@ conversion happens only for display:
 Decimals are shown as kitchen fractions (0.33 → ⅓). When an amount is scaled or converted,
 the original line is shown underneath.
 
-## Deploying to GitHub Pages
+## Deploying to Vercel
 
-The site uses hash routing (`#/recipe/...`) and relative asset paths, so it works from any
-sub-path, with no 404 workarounds needed.
+The site is a static build (`dist/`) with hash routing (`#/recipe/...`), so it needs no
+server rewrites. `vercel.json` pins the settings: Vite framework, `npm ci`,
+`npm run build`, output `dist`, and long-term caching for the hashed files in `assets/`.
 
-1. Merge the work into a branch named `main` (the workflow deploys on pushes to `main`;
-   edit `.github/workflows/deploy.yml` to use another branch).
-2. On GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. Push to `main` (or run the workflow manually from the **Actions** tab).
-4. The site will be at `https://anushkaa-k.github.io/lazypotato/`.
+**One-time setup (in the browser):**
 
-Note: GitHub Pages on a free account requires the repository to be public.
+1. Sign in at [vercel.com](https://vercel.com) with GitHub.
+2. **Add New… → Project**, then import `anushkaa-k/lazypotato` (grant the Vercel GitHub app
+   access to the repo if asked).
+3. Leave the detected settings as they are (they come from `vercel.json`) and click **Deploy**.
+   No environment variables are needed.
+
+After that, every push to `main` deploys to production (`https://<project>.vercel.app`)
+and every pull request gets its own preview URL, posted on the PR.
+
+**Or from a terminal:**
+
+```bash
+npm i -g vercel
+vercel          # first run links the project, then makes a preview deployment
+vercel --prod   # production deployment
+```
+
+`.github/workflows/ci.yml` runs the tests and a build on every pull request; deployment
+itself is handled by Vercel.
 
 ## Adding real AI later
 
