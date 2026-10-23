@@ -1,0 +1,303 @@
+.cook {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.cook__top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--gutter);
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.cook__title {
+  flex: 1;
+  min-width: 0;
+  font-size: var(--text-md);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cook__title small {
+  display: block;
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  color: var(--lilac-ink);
+  font-weight: 600;
+}
+
+.cook__stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--space-5) var(--gutter) var(--space-4);
+  gap: var(--space-5);
+}
+
+.cook__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  border-radius: var(--radius-xl);
+  background: var(--paper);
+  border: var(--border);
+  box-shadow: var(--shadow-md);
+  outline: none;
+  animation: step-in var(--dur) var(--ease);
+}
+
+.cook__mascot {
+  width: 96px;
+  align-self: flex-end;
+  margin: -64px -8px -8px 0;
+}
+
+.cook__step-text {
+  font-family: var(--font-body);
+  font-size: clamp(1.375rem, 1.1rem + 1.2vw, 1.875rem);
+  line-height: 1.45;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+
+.cook__timers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.cook__aside {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  justify-content: center;
+}
+
+.cook__controls {
+  position: sticky;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--gutter) calc(var(--space-3) + env(safe-area-inset-bottom));
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+
+.cook__controls-inner {
+  display: contents;
+}
+
+@media (min-width: 760px) {
+  .cook__controls {
+    grid-template-columns: auto auto minmax(240px, 320px);
+    justify-content: center;
+  }
+}
+
+.cook__next {
+  width: 100%;
+}
+
+@keyframes step-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------- Progress ---------- */
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.progress__label {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--text-lg);
+}
+
+.progress__dots {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+}
+
+.progress__dot {
+  position: relative;
+  width: 36px;
+  height: var(--tap);
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+
+.progress__dot::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  top: 50%;
+  height: 10px;
+  transform: translateY(-50%);
+  border-radius: var(--radius-pill);
+  background: var(--lavender-surface);
+  border: 1.5px solid var(--line-strong);
+  transition: background-color var(--dur) var(--ease);
+}
+
+.progress__dot--done::before {
+  background: var(--lilac);
+  border-color: var(--lilac);
+}
+
+.progress__dot--now::before {
+  background: var(--plum);
+  border-color: var(--plum);
+}
+
+/* ---------- Timer ---------- */
+.timer {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--tap);
+  padding: 4px 4px 4px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--peach);
+  color: var(--peach-ink);
+  font-weight: 600;
+}
+
+.timer--running {
+  background: var(--lavender);
+  color: var(--plum);
+}
+
+.timer--done {
+  background: var(--sage);
+  color: var(--sage-ink);
+  padding-right: 4px;
+}
+
+.timer__label {
+  font-size: var(--text-sm);
+}
+
+.timer__clock {
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  min-width: 4ch;
+}
+
+.timer__btn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--paper);
+  color: var(--plum);
+}
+
+/* ---------- Ingredient sheet ---------- */
+.sheet {
+  width: min(560px, 100%);
+  max-height: 88vh;
+  margin: auto auto 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  background: var(--cream);
+  color: var(--text);
+  box-shadow: var(--shadow-md);
+}
+
+.sheet::backdrop {
+  background: rgb(68 54 83 / 0.35);
+}
+
+@media (min-width: 720px) {
+  .sheet {
+    margin: auto;
+    border-radius: var(--radius-xl);
+  }
+}
+
+.sheet__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+}
+
+.sheet__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sheet__head h2 {
+  font-size: var(--text-xl);
+}
+
+/* ---------- Completion ---------- */
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-4);
+  max-width: 560px;
+  margin: 0 auto;
+  padding: var(--space-7) var(--gutter);
+}
+
+.done__art {
+  width: min(280px, 80%);
+}
+
+.done__title {
+  font-size: var(--text-3xl);
+}
+
+.done__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.cook__next {
+  white-space: nowrap;
+}
+
+@media (max-width: 459px) {
+  .cook__controls .btn:not(.cook__next) {
+    width: var(--tap);
+    padding: 0;
+  }
+  .cook__btn-text {
+    display: none;
+  }
+}
