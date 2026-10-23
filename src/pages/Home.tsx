@@ -54,7 +54,7 @@ function HeroSearch() {
       </label>
       <div className="field">
         <SearchIcon />
-        <input id="hero-have" value={text} onChange={(e) => setText(e.target.value)} placeholder="e.g. paneer, tomato, rice" autoComplete="off" enterKeyHint="search" />
+        <input id="hero-have" value={text} onChange={(e) => setText(e.target.value)} placeholder="e.g. paneer, rice" autoComplete="off" enterKeyHint="search" />
         <button type="submit" className="btn btn--primary hero-search__go">
           <span>Find food</span>
         </button>

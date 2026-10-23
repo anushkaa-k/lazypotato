@@ -58,25 +58,59 @@
 
 /* ---------- Home: hero ---------- */
 .hero {
-  padding: var(--space-4) 0 var(--space-6);
+  padding: var(--space-3) 0 var(--space-6);
 }
 
+/* Mobile first: one centred column. */
 .hero__inner {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: var(--space-4);
-  align-items: center;
+  justify-items: center;
+  gap: var(--space-2);
+  text-align: center;
 }
 
+/*
+ * The logo image has a lot of cream padding around the artwork (artwork ≈ x 224–1037,
+ * y 308–1006 of 1254px). The wrapper shows just the artwork plus a small margin, without
+ * editing the original file: the window is 962×848 image px starting at (150, 233).
+ */
 .hero__logo-wrap {
   position: relative;
+  width: min(300px, 80vw);
   display: flex;
   justify-content: center;
 }
 
-.hero__logo {
-  width: min(340px, 82vw);
-  margin: -24px 0 -36px;
+.hero__logo-wrap:has(img) {
+  aspect-ratio: 962 / 848;
+  overflow: hidden;
+  /* The window's bottom edge is soft padding; pull the greeting up into it. */
+  margin-bottom: calc(var(--space-3) * -1);
+}
+
+/*
+ * Soft edges are masked on the image itself (in image coordinates: the visible window is
+ * 11.96–88.67% across and 18.58–86.2% down). Masking the wrapper instead would isolate it,
+ * and the logo's cream background could no longer blend into the page.
+ */
+img.hero__logo {
+  flex: none;
+  width: 130.4%; /* 1254 / 962 */
+  max-width: none;
+  margin: -24.2% 0 0 -15.6%; /* window offset (233, 150) as a share of its 962px width */
+  align-self: flex-start;
+  -webkit-mask-image: linear-gradient(to right, transparent 11.96%, #000 17.3%, #000 83.3%, transparent 88.67%),
+    linear-gradient(to bottom, transparent 18.58%, #000 23.3%, #000 81.5%, transparent 86.2%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, transparent 11.96%, #000 17.3%, #000 83.3%, transparent 88.67%),
+    linear-gradient(to bottom, transparent 18.58%, #000 23.3%, #000 81.5%, transparent 86.2%);
+  mask-composite: intersect;
+}
+
+.hero__text {
+  width: 100%;
+  max-width: 34rem;
 }
 
 .hero__hi {
@@ -95,13 +129,13 @@
 .hero__squiggle {
   width: 180px;
   height: auto;
-  margin: 6px 0 var(--space-3);
+  margin: 6px auto var(--space-3);
 }
 
 .hero__lede {
   max-width: 46ch;
+  margin: 0 auto var(--space-5);
   color: var(--text-soft);
-  margin-bottom: var(--space-5);
 }
 
 .hero-search {
@@ -118,6 +152,7 @@
 
 .hero-search .field {
   padding-left: 16px;
+  text-align: left;
 }
 
 .hero-search__go {
@@ -130,25 +165,66 @@
 .hero-search__picks {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: var(--space-2);
+}
+
+.hero-search__picks .chip-row {
+  justify-content: center;
 }
 
 .hero-search__or {
   font-size: 1.25rem;
 }
 
+@media (max-width: 380px) {
+  .hero-search .field {
+    padding-left: 12px;
+    gap: 6px;
+  }
+  .hero-search .field > svg {
+    display: none;
+  }
+  .hero-search__go {
+    padding: 8px 14px;
+  }
+}
+
+/* Desktop: two balanced columns, vertically centred, left-aligned text. */
 @media (min-width: 900px) {
   .hero {
-    padding: var(--space-6) 0 var(--space-7);
+    padding: var(--space-5) 0 var(--space-6);
   }
   .hero__inner {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    justify-items: stretch;
+    align-items: center;
     gap: var(--space-7);
+    text-align: left;
   }
-  .hero__logo {
+  .hero__logo-wrap {
     width: 100%;
-    max-width: 440px;
-    margin: -40px 0;
+    max-width: 520px;
+    justify-self: center;
+  }
+  .hero__logo-wrap:has(img) {
+    margin-bottom: 0;
+  }
+  .hero__text {
+    max-width: none;
+  }
+  .hero__title {
+    font-size: clamp(2.25rem, 1.2rem + 1.9vw, 2.875rem);
+  }
+  .hero__squiggle,
+  .hero__lede {
+    margin-left: 0;
+  }
+  .hero-search__picks {
+    align-items: flex-start;
+  }
+  .hero-search__picks .chip-row {
+    justify-content: flex-start;
   }
 }
 

@@ -155,8 +155,10 @@
 /* ---------- Logo ---------- */
 .logo {
   height: auto;
-  /* The artwork's cream background is a shade darker than the page; "darken" keeps the
-     artwork untouched and only lets the lighter page show through. */
+  /* The artwork's cream background (#FEF9EF) is a shade yellower than the page (#FFFBF6).
+     A 3.5% lift makes that background just lighter than the page, so "darken" drops it
+     entirely and only the artwork shows. The change to the artwork is imperceptible. */
+  filter: brightness(1.035);
   mix-blend-mode: darken;
 }
 
@@ -338,6 +340,12 @@
   outline: none;
 }
 
+/* Scrolling to a focused element or anchor stops above the fixed tab bar. */
+html {
+  scroll-padding-top: calc(var(--header-h) + var(--space-2));
+  scroll-padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + var(--space-4));
+}
+
 .focus-main {
   outline: none;
   min-height: 100vh;
@@ -353,6 +361,9 @@
   }
   .site-main {
     padding-bottom: var(--space-8);
+  }
+  html {
+    scroll-padding-bottom: 0;
   }
   .site-header__wordmark {
     width: 170px;
