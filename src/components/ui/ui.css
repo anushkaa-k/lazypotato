@@ -235,8 +235,14 @@
   width: 52px;
 }
 
-.site-header__wordmark {
-  width: 140px;
+/* Small heart on the right; on desktop the nav (which includes Saved) takes its place. */
+.site-header__saved {
+  color: var(--text);
+}
+
+.site-header__saved.active {
+  background: var(--lavender);
+  border-color: var(--plum);
 }
 
 .site-nav {
@@ -365,8 +371,8 @@ html {
   html {
     scroll-padding-bottom: 0;
   }
-  .site-header__wordmark {
-    width: 170px;
+  .site-header__saved {
+    display: none;
   }
 }
 

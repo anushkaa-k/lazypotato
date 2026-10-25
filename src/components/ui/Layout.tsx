@@ -43,8 +43,10 @@ export function Layout() {
         <div className="container site-header__inner">
           <Link to="/" className="site-header__brand" aria-label="Lazy Potato home">
             <Logo variant="mascot" decorative className="site-header__mascot" />
-            <Logo variant="wordmark" decorative className="site-header__wordmark" />
           </Link>
+          <NavLink to="/saved" className="icon-btn site-header__saved" aria-label="Saved recipes" title="Saved recipes">
+            <HeartIcon size={22} />
+          </NavLink>
           <nav aria-label="Main" className="site-nav">
             {NAV.map(({ to, label, icon: Icon, end }) => (
               <NavLink key={to} to={to} end={end} className="site-nav__link">
