@@ -11,6 +11,7 @@ import {
   SandwichArt,
 } from './food';
 import { MascotCelebrate, MascotCook, MascotPuzzled, MascotSleep, MascotWave } from './mascot';
+import { recipeIllustrations } from './recipeArt';
 
 export * from './mascot';
 export * from './food';
@@ -35,6 +36,8 @@ export const illustrations: Record<string, ComponentType<ArtProps>> = {
   'mascot-celebrate': MascotCelebrate,
   'mascot-sleep': MascotSleep,
   'mascot-puzzled': MascotPuzzled,
+  // Per-recipe art, looked up as `recipe:<recipe-id>` (falls back to the category art).
+  ...Object.fromEntries(Object.entries(recipeIllustrations).map(([id, C]) => [`recipe:${id}`, C])),
 };
 
 export function getIllustration(name: string | undefined): ComponentType<ArtProps> | undefined {

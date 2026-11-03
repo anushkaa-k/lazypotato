@@ -9,7 +9,7 @@ painted artwork when available) · ⬜ not made
 |---|---|---|
 | Full logo | `src/assets/brand/lazy-potato-logo.webp` | ✅ original, unmodified |
 | Wordmark + tagline crop | `src/assets/brand/lazy-potato-wordmark.webp` | ✅ crop of original (currently unused, kept for future use) |
-| Wordmark-only crop (header) | `src/assets/brand/lazy-potato-wordmark-only.webp` | ✅ crop of original |
+| Wordmark-only crop | `src/assets/brand/lazy-potato-wordmark-only.webp` | ✅ crop of original (currently unused; the header shows the mascot only) |
 | Mascot crop (header, footer) | `src/assets/brand/lazy-potato-mascot.webp` | ✅ crop of original |
 | Favicon / touch icon | `public/favicon.png`, `public/apple-touch-icon.png` | ✅ crops of original |
 
@@ -40,11 +40,13 @@ not painted like the logo.
 | Occasional meals | `OccasionalArt` (pav bhaji plate) | 🟡 interim |
 | Eggs | n/a | ⬜ not needed: the recipe file has no egg category |
 
-## Per-recipe art
+## Per-recipe art (SVG, `src/assets/illustrations/recipeArt.tsx`)
 
-⬜ Not made. Every recipe currently shows its category's illustration on a category tint.
-To add one, register it in `illustrations` as `recipe:<recipe-id>` (e.g.
-`recipe:shortcut-pav-bhaji`); `RecipeArt` picks it up automatically.
+🟡 interim. All 30 recipes have their own illustration (different object, props and accent
+colour), built from shared hand-drawn pieces in the same style as the category art, so no two
+cards look alike. They're registered as `recipe:<recipe-id>`; `RecipeArt` falls back to the
+category illustration if one is missing. To replace one with final artwork, point its entry in
+`recipeIllustrations` at a new component.
 
 ## Decorations & icons
 

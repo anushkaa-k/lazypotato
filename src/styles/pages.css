@@ -190,6 +190,72 @@ img.hero__logo {
   }
 }
 
+/* Phones: a more compact hero so today's pick peeks in above the tab bar. */
+@media (max-width: 479px) {
+  .hero {
+    padding: var(--space-1) 0 var(--space-4);
+  }
+  .hero__logo-wrap {
+    width: min(180px, 50vw);
+  }
+  .hero__logo-wrap:has(img) {
+    margin-bottom: calc(var(--space-2) * -1);
+  }
+  .hero__hi {
+    font-size: 1.5rem;
+  }
+  .hero__title {
+    font-size: 1.75rem;
+  }
+  .hero__squiggle {
+    width: 140px;
+    margin: 2px auto var(--space-2);
+  }
+  .hero__lede {
+    margin-bottom: var(--space-3);
+  }
+  .hero-search {
+    gap: var(--space-2);
+  }
+  .hero-search__label {
+    font-size: var(--text-md);
+  }
+  .hero-search__picks {
+    gap: var(--space-1);
+  }
+  /* Quick picks: one swipeable row, edge to edge, centred when it fits. */
+  .hero-search__picks .chip-row {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    width: calc(100% + 2 * var(--gutter));
+    margin-inline: calc(var(--gutter) * -1);
+    padding: 2px var(--gutter);
+    scrollbar-width: none;
+  }
+  .hero-search__picks .chip-row::-webkit-scrollbar {
+    display: none;
+  }
+  .hero-search__picks .chip-row::before,
+  .hero-search__picks .chip-row::after {
+    content: '';
+    margin: auto;
+  }
+  .hero-search__picks .chip {
+    flex: none;
+  }
+}
+
+/* Short phones (e.g. 360×740): trim a little more. */
+@media (max-width: 479px) and (max-height: 760px) {
+  .hero__logo-wrap {
+    width: min(140px, 40vw);
+  }
+  .hero__lede {
+    font-size: var(--text-sm);
+  }
+}
+
 /* Desktop: two balanced columns, vertically centred, left-aligned text. */
 @media (min-width: 900px) {
   .hero {

@@ -77,8 +77,11 @@ export function Home() {
   useDocumentTitle(undefined);
   const featured = recipeOfTheDay(recipes);
   const featuredCat = getCategory(featured.category);
-  const quick = sortRecipes(recipes.filter((r) => totalMinutes(r) <= 10), 'quickest');
-  const noCook = recipes.filter(isNoCook);
+  // Every no-cook recipe is also ready in 10 minutes, so the quick row keeps to recipes that
+  // need a little cooking, and "No stove needed" skips anything already shown above it.
+  const quick = sortRecipes(recipes.filter((r) => totalMinutes(r) <= 10 && !isNoCook(r)), 'quickest');
+  const quickIds = new Set(quick.map((r) => r.id));
+  const noCook = recipes.filter((r) => isNoCook(r) && !quickIds.has(r.id));
   const recent = useRecentlyViewed().filter((r) => r.id !== featured.id);
   const { saved } = useFavourites();
 
